@@ -31,4 +31,5 @@ def return_string_array(array)
     results << array[index].to_s
     index += 1
   end
+  return results
 end
