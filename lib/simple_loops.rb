@@ -23,3 +23,12 @@ def output_array(array)
     index += 1
   end
 end
+
+def return_string_array(array)
+  index = 0
+  results = []
+  while index < array.length do
+    results << array[index].to_s
+    index += 1
+  end
+end
